@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
+    url(./img/crow-counter-bg.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 72px;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 62px;
+  margin-bottom: 1.5rem;
+}
+
+#increment-btn {
+  padding: 20px;
+  background: darkgreen;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+#decrement-btn {
+  padding: 20px;
+  background: darkred;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+#save-btn {
+  padding: 20px;
+  background: darkblue;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 1.5rem;
+  font-size: 21px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
+      url(./img/crow-counter-bg.jpg) no-repeat center center/cover;
+    height: 1000px;
+    color: white;
+    display: block;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  h2 {
+    font-size: 38px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+}
